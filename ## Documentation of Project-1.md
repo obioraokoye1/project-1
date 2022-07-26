@@ -1,4 +1,4 @@
-    ## Documentation of Project-1
+## Documentation of Project-1
 
 Created an AWS Account, and provisioned an Ubuntu Server. A preferred region (closest to my location) was selected and a new EC2 instance of t2.micro family with Ubuntu Server 20.04 LTS was launched.
 
