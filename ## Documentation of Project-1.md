@@ -7,24 +7,24 @@ Connected to my first EC2 instance by running "ssh -i <private-key-name>.pem ubu
 `ssh -i "PBL.pem" ubuntu@ec2-54-167-43-211.compute-1.amazonaws.com`
 
 Picture shows successful creation of a Linux server in the cloud
-![instance connect](./images/ec2-connect.png)
+![instance connect](./images/ec2-connect.PNG)
 
 Next, Apache was installation and firewall update. Using Ubuntu packet manager 'apt' Apache was installed using the command "sudo apt update"
 
 `sudo apt update`
 
-![Apache install](./images/Apache-install.jpg)
+![Apache install](./images/Apache-install.JPG)
 
 The output above suggested an upgrade was available, thus using the command "sudo apt upgrade" an upgrade was performed.
 
 `sudo apt upgrade`
 
-![Apache install](./images/Apache-upgrade.png)
+![Apache install](./images/Apache-upgrade.PNG)
 
 
 `sudo apt install apache2`
 
-![Apache install](./images/Apache-status.jpg)
+![Apache install](./images/Apache-status.JPG)
 
 Apache2 was verified as running as a Service in our OS, using the command "sudo systemctl status apache2"
 
@@ -34,7 +34,7 @@ Apache2 was verified as running as a Service in our OS, using the command "sudo 
 
 TCP Port 80 (default port) was opened to recieve traffic on internet access on web browser.
 
-![Apache install](./images/EC2-port80.png)
+![Apache install](./images/EC2-port80.PNG)
 
 Using the ‘curl’ command Apache HTTP Server on port 80 was requested.
 
@@ -46,7 +46,7 @@ Picture shows a small part of a long output
 
 Opening a web browser, ip address 54.167.43.211 was typed in and the page below was displayed showing web page works.
 
-![Apache install](./images/Apache2-ubuntu-page.png)
+![Apache install](./images/Apache2-ubuntu-page.PNG)
 
 
 **INSTALLING MYSQL**
